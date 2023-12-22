@@ -113,7 +113,7 @@ int main()
     user.verifyPass(pwd);
     cout << "\n";
     user.doPayment(pwd);
-    User user1("huy", "huy123",ewallet2 );
+    User user1("Quang Huy", "huy123",ewallet2 );
     user1>>user;
     cout<<"Transfer successfully";
     user.showInfo();
