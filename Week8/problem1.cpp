@@ -69,8 +69,9 @@ int main(){
     insertNode(head, tail,&node1, &node5);
     showForward(head);
     showBackward(tail);
-    // insertNode(head, tail,nullptr, &node5);
-    // showForward(head);
-    // showBackward(tail);
+    Node node6(300);
+    insertNode(head, tail, nullptr, &node6);
+    showForward(head);
+    showBackward(tail);
     return 0; 
 }
