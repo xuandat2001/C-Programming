@@ -27,5 +27,6 @@ int main()
     cout << "Input total amount of seconds: ";
     cin >> seconds;       // get the value from user
     convertTime(seconds); // call function
+    ///Tao la Dat
     return 0;
 }
