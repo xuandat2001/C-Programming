@@ -81,7 +81,7 @@ private:
 public:
     CustomertAccount(string nameCusVal= "", std::vector<Order>ListOrderVal={}): nameCus(nameCusVal),ListOrder(ListOrderVal){};
     void buyProduct(Product &product){
-        BoughtProduct.push_back(product);
+        //BoughtProduct.push_back(product);
         cout<<"buy sucessfully";
     }
 };
